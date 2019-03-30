@@ -74,27 +74,27 @@ body {
    height: 370px;
    width: 1440px;
    position: relative;
-   background-color: #EFA0B1;
+   background-color: #FCB9A7;
    margin: 0 auto;
    border-left: #0E3F50 solid 2px;
    border-right: #0E3F50 solid 2px;
 }
 .box1-title1{
-  font-size: 30px;
+  font-size: 40px;
     position: absolute;
     top: 10px;
     left: 520px;
 }
 .box1-title2{
   position: absolute;
-    top: 50px;
-    left: 600px;
-    font-size: 20px;
+    top: 65px;
+    left: 620px;
+    font-size: 25px;
 }
 .box1-p1{
    width: 900px;
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: 50px;
     font-size: 18px;
 }
@@ -105,25 +105,46 @@ body {
     font-size: 18px;
     bottom: 90px;
 }
+.box1-p-title{
+  font-size: 22px;
+    position: absolute;
+    top: 290px;
+    left: 60px;
+}
+.box1-decordiv{
+   width: 920px;
+    height: 2px;
+    position: absolute;
+    top: 313px;
+    left: 50px;
+    background-color: #1E1A18;
+}
+.box1-p3{
+   position: absolute;
+    width: 900px;
+    top: 320px;
+    left: 50px;
+}
 .box1-image{
    width: 400px;
     position: absolute;
-    top: 90px;
+    top: 100px;
     right: 50px;
 }
 
+
 /*BOX2*/
 .box2{
-height: 370px;
+height: 1000px;
    width: 1440px;
    position: relative;
-   background-color: #EFA0B1;
+   background-color: #FCB9A7;
    margin: 0 auto;
    border-left: #0E3F50 solid 2px;
    border-right: #0E3F50 solid 2px;
 }
 .animbox{
-   width: 500px;
+   width: 1440px;
     position: relative;
 }
 .butterfly{
@@ -131,6 +152,7 @@ height: 370px;
     position: absolute;
     left: 50px;
     top: 45px;
+     transition: top 0.3s ease;
    
 }
 .butterfly2{
@@ -138,6 +160,7 @@ height: 370px;
   position: absolute;
     top: 55px;
     left: 170px;
+     transition: top 0.3s ease;
 }
 .flower{
   width: 200px;
@@ -154,11 +177,139 @@ height: 370px;
 .animbox:hover .butterfly2{
   top: 0px;
 }
+.butterfly-1{
+    width: 100px;
+    position: absolute;
+    top: 45px;
+    right: 150px;
+     transition: top 0.3s ease;
+}
+.butterfly-2{
+    width: 100px;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    transition: top 0.3s ease;
+}
+.flower-1{
+  width: 200px;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+}
+.animbox:hover .butterfly-1{
+  top: 0px;
+}
+.animbox:hover .butterfly-2{
+  top: 10px;
+}
+.box2-title{
+  font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+.title-butterfly{
+  width: 120px;
+    position: absolute;
+    top: 40px;
+    right: 500px;
+    transform: rotate(5deg);
+    transition: top 0.3s ease-out;
+}
+.title-butterfly2{
+  width: 120px;
+    position: absolute;
+    left: 470px;
+    top: 80px;
+    transition: top 0.3s ease;
 
+ }
+.animbox:hover .title-butterfly{
+   transform:  rotate(-50deg);
+  top: 0px;
+  right: 400px;
+ 
+ 
 
-
-
-
+}
+.animbox:hover .title-butterfly2{
+  top: 120px;
+ }
+.box2-text{
+   width: 900px;
+    position: absolute;
+    top: 240px;
+    right: 50px;
+    font-size: 18px;
+}
+.box2-text2{
+    width: 900px;
+    position: absolute;
+    top: 351px;
+    font-size: 18px;
+    left: 486px;
+}
+.box2-text3{
+    width: 900px;
+    position: absolute;
+    top: 459px;
+    right: 49px;
+    font-size: 18px;
+}
+.box2-text4{
+    width: 900px;
+    position: absolute;
+    top: 537px;
+    left: 487px;
+    font-size: 18px;
+}
+.box2-text5{
+    width: 900px;
+    position: absolute;
+    top: 615px;
+    left: 488px;
+    font-size: 18px;
+}
+.box2-title1{
+  position: absolute;
+    top: 320px;
+    right: 843px;
+    font-size: 20px;
+}
+.box2-title2{
+  font-size: 20px;
+    position: absolute;
+    top: 420px;
+    right: 728px;
+}
+.arrow{
+  position: relative;
+   font-size: 61px;
+    display: inline-block;
+    margin-top: 445px;
+    margin-left: 236px;
+    animation: arrow 1s infinite;
+}
+.caterpillar{
+  width: 398px;
+    height: 214px;
+    position: absolute;
+    top: 503px;
+    left: 55px;
+}
+.stage1{
+   position: absolute;
+    top: 239px;
+    width: 400px;
+    left: 58px;
+    height: 203px;
+}
+@keyframes arrow{
+ 0%{top: 0px;}
+ 50%{top:20px; }
+ 100%{top: 0px;}
+}
 
 
 
