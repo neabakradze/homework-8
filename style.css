@@ -54,7 +54,7 @@ body {
     background-color: #0E3F50;
 }
 .decor-div2{
-     height: 30px;
+    height: 30px;
     width: 3px;
     background-color: #0E3F50;
 }
@@ -92,27 +92,27 @@ body {
     font-size: 25px;
 }
 .box1-p1{
-   width: 900px;
+    width: 900px;
     position: absolute;
     top: 100px;
     left: 50px;
     font-size: 18px;
 }
 .box1-p2{
-  width: 900px;
+    width: 900px;
     left: 50px;
     position: absolute;
     font-size: 18px;
     bottom: 90px;
 }
 .box1-p-title{
-  font-size: 22px;
+    font-size: 22px;
     position: absolute;
     top: 290px;
     left: 60px;
 }
 .box1-decordiv{
-   width: 920px;
+    width: 920px;
     height: 2px;
     position: absolute;
     top: 313px;
@@ -120,13 +120,13 @@ body {
     background-color: #1E1A18;
 }
 .box1-p3{
-   position: absolute;
+    position: absolute;
     width: 900px;
     top: 320px;
     left: 50px;
 }
 .box1-image{
-   width: 400px;
+    width: 400px;
     position: absolute;
     top: 100px;
     right: 50px;
@@ -135,54 +135,53 @@ body {
 
 /*BOX2*/
 .box2{
-height: 1000px;
+   height:1100px;
    width: 1440px;
    position: relative;
    background-color: #FCB9A7;
    margin: 0 auto;
    border-left: #0E3F50 solid 2px;
    border-right: #0E3F50 solid 2px;
+
 }
 .animbox{
-   width: 1440px;
+    width: 1440px;
     position: relative;
 }
 .butterfly{
-  width: 100px;
+    width: 100px;
     position: absolute;
     left: 50px;
     top: 45px;
-     transition: top 0.3s ease;
+    transition: top 0.3s ease;
    
 }
 .butterfly2{
-  width: 100px;
-  position: absolute;
+    width: 100px;
+    position: absolute;
     top: 55px;
     left: 170px;
-     transition: top 0.3s ease;
+    transition: top 0.3s ease;
 }
 .flower{
-  width: 200px;
-  position: absolute;
+    width: 200px;
+    position: absolute;
     top: 50px;
     left: 50px;
 }
-@keyframes anim{
-  
-}
+
 .animbox:hover .butterfly{
-  top: 5px;
+    top: 5px;
 }
 .animbox:hover .butterfly2{
-  top: 0px;
+    top: 0px;
 }
 .butterfly-1{
     width: 100px;
     position: absolute;
     top: 45px;
     right: 150px;
-     transition: top 0.3s ease;
+    transition: top 0.3s ease;
 }
 .butterfly-2{
     width: 100px;
@@ -192,25 +191,25 @@ height: 1000px;
     transition: top 0.3s ease;
 }
 .flower-1{
-  width: 200px;
-  position: absolute;
-  top: 55px;
-  right: 50px;
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    right: 50px;
 }
 .animbox:hover .butterfly-1{
-  top: 0px;
+    top: 0px;
 }
 .animbox:hover .butterfly-2{
-  top: 10px;
+    top: 10px;
 }
 .box2-title{
-  font-size: 40px;
+    font-size: 40px;
     position: absolute;
     top: 100px;
     left: 550px;
 }
 .title-butterfly{
-  width: 120px;
+    width: 120px;
     position: absolute;
     top: 40px;
     right: 500px;
@@ -218,7 +217,7 @@ height: 1000px;
     transition: top 0.3s ease-out;
 }
 .title-butterfly2{
-  width: 120px;
+    width: 120px;
     position: absolute;
     left: 470px;
     top: 80px;
@@ -226,18 +225,15 @@ height: 1000px;
 
  }
 .animbox:hover .title-butterfly{
-   transform:  rotate(-50deg);
-  top: 0px;
-  right: 400px;
- 
- 
-
+    transform:  rotate(-50deg);
+    top: 0px;
+    right: 400px;
 }
 .animbox:hover .title-butterfly2{
-  top: 120px;
+    top: 120px;
  }
 .box2-text{
-   width: 900px;
+    width: 900px;
     position: absolute;
     top: 240px;
     right: 50px;
@@ -253,14 +249,14 @@ height: 1000px;
 .box2-text3{
     width: 900px;
     position: absolute;
-    top: 459px;
+    top: 467px;
     right: 49px;
     font-size: 18px;
 }
 .box2-text4{
     width: 900px;
     position: absolute;
-    top: 537px;
+    top: 800px;
     left: 487px;
     font-size: 18px;
 }
@@ -272,40 +268,41 @@ height: 1000px;
     font-size: 18px;
 }
 .box2-title1{
-  position: absolute;
+    position: absolute;
     top: 320px;
     right: 843px;
     font-size: 20px;
 }
 .box2-title2{
-  font-size: 20px;
+    font-size: 20px;
     position: absolute;
-    top: 420px;
+    top: 426px;
     right: 728px;
 }
 .arrow{
-  position: relative;
-   font-size: 61px;
+    position: relative;
+    font-size: 61px;
     display: inline-block;
-    margin-top: 445px;
+    margin-top: 413px;
     margin-left: 236px;
-    animation: arrow 1s infinite;
+    animation: arrows 1s infinite;
 }
+
 .caterpillar{
-  width: 398px;
-    height: 214px;
+    height: 151px;
     position: absolute;
-    top: 503px;
-    left: 55px;
+    top: 485px;
+    left: 98px;
+    border: 3px solid;
 }
 .stage1{
    position: absolute;
-    top: 239px;
-    width: 400px;
-    left: 58px;
-    height: 203px;
+    top: 245px;
+    width: 194px;
+    left: 154px;
+    border: solid 3px;
 }
-@keyframes arrow{
+@keyframes arrows{
  0%{top: 0px;}
  50%{top:20px; }
  100%{top: 0px;}
@@ -314,9 +311,128 @@ height: 1000px;
 
 
 
+.stage3-title{
+    position: absolute;
+    top: 564px;
+    right: 744px;
+    font-size: 20px;
+}
+.stage3-text{
+    position: absolute;
+    top: 598px;
+    width: 900px;
+    left: 490px;
+    font-size: 18px;
+}
+.stage3-text2{
+    width: 900px;
+    position: absolute;
+    bottom: 386px;
+    right: 48px;
+    font-size: 18px;
+}
+.stage3-image{
+    height: 190px;
+    position: absolute;
+    top: 687px;
+    left: 150px;
+    border: solid 3px;
+}
+.stage4-title{
+    position: absolute;
+    bottom: 329px;
+    font-size: 20px;
+    left: 489px;
+  }
+.stage4-text{
+    position: absolute;
+    bottom: 165px;
+    right: 50px;
+    width: 900px;
+    font-size: 18px;
+}
+.stage4-image{
+    width: 398px;
+    height: 214px;
+    position: absolute;
+    top: 503px;
+    left: 55px;
+}
+
+.finalstage-text{
+    position: absolute;
+        bottom: 71px;
+    width: 900px;
+    left: 457px;
+    left: 485px;
+    font-size: 18px;
+}
+.finalstage-image{
+    height: 165px;
+    position: absolute;
+    top: 930px;
+    left: 95px;
+    border: solid 3px;
+}
 
 
 
+
+
+.arrow2{
+    position: absolute;
+    font-size: 61px;
+    display: inline-block;
+    animation: arrows 1s infinite;
+}
+.arrow3{
+     position: absolute;
+     font-size: 61px;
+     display: inline-block;
+     animation: arrows 1s infinite;
+     margin-top: 864px;
+     margin-left: 224px;
+}
+.arrow4{
+    position: absolute;
+    font-size: 61px;
+    display: inline-block;
+    animation: arrows 1s infinite;
+    margin-top: 626px;
+    margin-left: 230px;
+}
+
+.decor-div1{
+    width: 920px;
+    height: 2px;
+    position: absolute;
+    top: ;
+    right: ;
+    background-color: #1E1A18;
+}
+.decor-div9{
+   width: 920px;
+    height: 2px;
+    position: absolute;
+  
+    background-color: #1E1A18;
+}
+.decor-div10{
+    width: 920px;
+    height: 2px;
+    position: absolute;
+    top: ;
+    right: ;
+    background-color: #1E1A18;
+}
+.decor-div4{
+    width: 920px;
+    height: 2px;
+    position: absolute;
+    top: ;
+    right: ;
+    background-color: #1E1A18;
+}
 
 
 
