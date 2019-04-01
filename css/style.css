@@ -94,6 +94,7 @@ body {
     top: 65px;
     left: 620px;
     font-size: 25px;
+    font-family: 'Fascinate Inline', cursive;
 }
 .box1-p1{
     width: 900px;
@@ -114,6 +115,7 @@ body {
     position: absolute;
     top: 290px;
     left: 60px;
+    font-family: 'Fascinate Inline', cursive;
 }
 .box1-decordiv{
     width: 920px;
@@ -279,14 +281,16 @@ body {
 .box2-title1{
     position: absolute;
     top: 320px;
-    right: 843px;
+    right: 805px;
     font-size: 20px;
+    font-family: 'Fascinate Inline', cursive;
 }
 .box2-title2{
     font-size: 20px;
     position: absolute;
     top: 426px;
-    right: 728px;
+    right: 655px;
+    font-family: 'Fascinate Inline', cursive;
 }
 .arrow{
     position: relative;
@@ -323,8 +327,9 @@ body {
 .stage3-title{
     position: absolute;
     top: 564px;
-    right: 744px;
+    right: 685px;
     font-size: 20px;
+    font-family: 'Fascinate Inline', cursive;
 }
 .stage3-text{
     position: absolute;
@@ -352,6 +357,7 @@ body {
     bottom: 329px;
     font-size: 20px;
     left: 489px;
+    font-family: 'Fascinate Inline', cursive;
   }
 .stage4-text{
     position: absolute;
